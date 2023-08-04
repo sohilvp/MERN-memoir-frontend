@@ -1,0 +1,22 @@
+.error_container{
+    display: flex;
+    min-height:100vh ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    font-family: var(--ff-post-head);
+}
+
+.error_container button{
+    padding: .4em 3em;
+    font-size: 1.1rem;
+    background: var(--txt-sub);
+   font-weight: 500;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+}
+.error_container button a{
+    color: #000;
+}
