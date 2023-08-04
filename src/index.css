@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300;1,400&family=Montagu+Slab:wght@400;500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+:root{
+  /*  colors */
+  --pg-background: #000;
+  --txt-main:#fff;
+  --txt-sub: #BAFF39;
+  --cc-border:#2f2f2f;
+  --cc-auther:#9d9d9d;
+  --cc-light :#242424;
+
+
+  /* fonts */
+
+  --ff-heading :'Ubuntu', sans-serif;
+  --ff-desc :'Oxygen', sans-serif;
+  --ff-post-head:'Martian Mono', monospace;
+  --ff-auther:'Martian Mono', monospace;
+  --ff-para:'Josefin Sans', sans-serif;
+
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--pg-background);
+  color: var(--txt-main);
+  min-width:320px;
+}
+.container{
+  max-width: 85%;
+  margin: 0 auto ;
+}
+
+a{
+  text-decoration: none; 
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  padding: 0;
+  margin: 0;
+}
+
+.size1rem{
+  font-size: 1rem;
+}
+@media only screen and (max-width: 600px) {
+.container{
+  max-width: 95%;
+}
+}

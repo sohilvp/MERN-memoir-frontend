@@ -1,0 +1,50 @@
+.smallpost_container{
+    
+    max-width: 200px;
+    min-height: 90px;
+    max-height: 90px;
+    height:min-content;
+    border-bottom: 2px solid #242424;
+    position: relative;
+    font-family: 'Clash Display', sans-serif;
+    
+}
+.smallpost_container:hover{
+    background: var(--txt-sub);
+    
+}
+.smallpost_container:hover P{
+    color: black;
+}
+.smallpost_top{
+    height: 60px;
+    overflow: hidden;
+}
+.smallpost_top p{
+    color: white;
+}
+.smallpost_bottom{
+    position: absolute;
+    bottom: 0;
+}
+.smallpost_title:hover {
+text-decoration: underline;
+}
+
+@media only screen 
+and (max-width: 745px) {
+    .smallpost_container{
+max-width: 40%;
+min-width: 40%;
+    }
+
+}
+
+@media only screen 
+and (max-width: 480px) {
+    .smallpost_container{
+max-width: 90%;
+min-width: 90%;
+    }
+
+}

@@ -1,0 +1,18 @@
+.section_container{
+    display: flex;
+    column-gap: 1em;
+    row-gap: 2em;
+    flex-wrap: wrap;
+    margin-top: 5em;
+   margin-bottom: 8em;
+   
+}
+
+
+
+@media only screen 
+and (max-width: 745px) {
+    .section_container{
+        justify-content: center;
+    }
+    }

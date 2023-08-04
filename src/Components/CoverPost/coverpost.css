@@ -1,0 +1,76 @@
+
+.coverpost_container img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    max-height: 300px;
+}
+.coverpost_container .cover_title{
+    width:90%;
+    font-size: 2rem;
+    color:var(--txt-main);
+    padding-top: .3em;
+    font-family: var(--ff-heading);
+    
+}
+.coverpost_container .description{
+    margin-top: 1em;
+    font-size: 1.1rem;
+    font-family: var(--ff-para);
+    font-family: 'Chillax', sans-serif;
+}
+.description::first-letter{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-left: 1em;
+}
+.cover_date{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom:.4em ;
+    text-transform: uppercase;
+    color: var(--txt-sub);
+    font-family: var(--ff-para);
+}
+
+
+@media only screen 
+and (max-width: 730px) {
+  .cover_date{
+     font-size: .8rem;
+  }
+
+}
+
+@media only screen 
+and (max-width: 480px) {
+  .coverpost_container .cover_title{
+     font-size: 1.5rem;
+  }
+  .coverpost_container .description{
+    font-size: .9rem;
+  }
+  
+}
+
+@media only screen 
+and (max-width: 400px) {
+  .coverpost_container .cover_title{
+     font-size: 1.3rem;
+  }
+  .coverpost_container .description{
+    font-size: .9rem;
+  }
+  
+}
+
+@media only screen 
+and (max-width: 380px) {
+  .coverpost_container .cover_title{
+     font-size: 1.2rem;
+  }
+  .coverpost_container .description{
+    font-size: .8rem;
+  }
+  
+}

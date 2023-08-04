@@ -1,0 +1,48 @@
+
+.post_container{
+    font-family: var(--ff-heading);
+    font-family: 'Clash Display', sans-serif;
+    color: black;
+    overflow: hidden;
+    padding-left: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    word-wrap: break-word;
+}
+.post_container:hover{
+    border-left: 4px solid var(--txt-sub);
+
+}
+
+.post_container img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 150px;
+}
+
+.post_container .date{
+ font-size: .8rem;
+ text-transform: uppercase;
+ color: var(--txt-sub);
+ font-family: var(--ff-para);
+}
+
+.text_area .post_title{
+    word-wrap: break-word;
+    font-size: 1.2rem;
+    padding-top: .2em;
+    color: var(--txt-main);
+}
+.text_area  a:hover{
+    text-decoration: underline;
+    color: var(--txt-main);
+}
+
+.auther{
+    text-transform: uppercase;
+    margin-top: .5em;
+    color: var(--cc-auther);
+    font-family: var(--ff-auther);
+    font-size: .8rem;
+}
+

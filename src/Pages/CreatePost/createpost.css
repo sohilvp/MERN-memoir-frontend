@@ -1,0 +1,70 @@
+.create_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 1em;
+}
+.create_container h1{
+    font-family: var(--ff-post-head);
+}
+.create_container input{
+    padding: 1.2em;
+    background: #242424;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    
+}
+
+.create_container .create_first_row{
+    display: flex;
+    gap: 1em;
+}
+textarea{
+    padding: 1.2em;
+    background: #242424;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    resize: none;
+    font-family: var(--ff-desc);
+}
+
+.create_container .btn_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-top: .8em;
+    
+}
+.create_container .btn_container button{
+    padding: 1.2em 5em;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: var(--txt-sub);
+}
+
+
+@media only screen 
+and (max-width: 600px) {
+
+    .create_container .create_first_row{
+        flex-direction: column;
+    }
+    .create_container .btn_container{
+        margin-right: 0;
+    }
+    .create_container .btn_container button{
+        width: 100%;
+    
+    }
+    .create_container h1{
+        font-size: 1rem;
+    }
+    
+}

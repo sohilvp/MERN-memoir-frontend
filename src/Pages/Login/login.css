@@ -1,0 +1,36 @@
+.form_container{
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 1.5em;
+    border-radius: 10px;
+    margin-top: 3em;
+}
+.form_container h1{
+    text-align: center;
+    font-family: 'Martian Mono', monospace; 
+ margin-bottom: 3em;
+}
+.form_container input{
+    padding: 1.2em;
+    background: #343434;
+    border: none;
+    border-radius: 10px;
+    color: azure;
+    font-size: 1rem;
+    min-width: 230px;
+    display: block;
+
+}
+.form_container input:last-child{
+    width: 30%;
+    margin: 0 auto;
+    background: #93ef83;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1em;
+    color: black;
+    cursor: pointer;
+}
