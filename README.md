@@ -1,3 +1,8 @@
+## Live site : 
+https://techmemoir.netlify.app/
+
+https://techmemoir.onrender.com/
+
 # Tech Blog
 
 Welcome to our Tech Blog, where we share insights, tutorials, and the latest tech trends. This MERN (MongoDB, Express.js, React, Node.js) application is designed for an optimal reading experience and is hosted on Netlify for the frontend and Render.com for the backend.
