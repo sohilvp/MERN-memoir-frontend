@@ -1,7 +1,4 @@
-## Live site : 
-https://techmemoir.netlify.app/
-
-https://techmemoir.onrender.com/
+## Live site : https://techmemoir.onrender.com/
 
 # Tech Blog
 
