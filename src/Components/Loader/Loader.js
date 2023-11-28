@@ -15,11 +15,15 @@ const Loader = () => {
   const timeOut3 = setTimeout(()=>{
     setLoading("It's taking longer than expected")
    },40000)
+  const timeOut4 = setTimeout(()=>{
+    setLoading("Server is Restarting. Thank you for your patience")
+   },50000)
 
    return ()=>{
     clearTimeout(timeOut1)
     clearTimeout(timeOut2)
     clearTimeout(timeOut3)
+    clearTimeout(timeOut4)
    }
   },[])
   
